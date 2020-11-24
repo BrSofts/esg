@@ -1,5 +1,6 @@
 <?php
-include("../../config/constantes.php");
+
+require_once("../../config/constantes.php");
 
 if (isset($_POST['id'])) { 
     include("../../controller/login.php");
