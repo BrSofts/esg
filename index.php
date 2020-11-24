@@ -21,7 +21,5 @@ if (isset($_POST['id'])) {
       echo "tudo ok";  
 }
 else {
-
     include("../../view/login.html"); 
-
 }
